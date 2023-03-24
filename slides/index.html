@@ -419,7 +419,7 @@
 </ul>
 <div>
 <ul>
-<li class="fragment"><span class="blue2"><strong>Constats</strong></span> :
+<li class="fragment"><p><span class="blue2"><strong>Constats</strong></span> :</p>
 <ul>
 <li class="fragment">le <span class="green2"><em>“code est plus souvent lu qu’écrit”</em></span> (<a href="https://fr.wikipedia.org/wiki/Guido_van_Rossum">Guido Van Rossum</a>)</li>
 <li class="fragment">la maintenance d’un code est très coûteuse</li>
@@ -606,14 +606,14 @@
 <h2><span class="emoji" data-emoji="one">1️⃣</span> Adopter les standards communautaires</h2>
 <p>Deux outils pratiques aident à respecter les standards :</p>
 <ol type="1">
-<li><span class="orange"><strong><em>linter</em></strong></span> : programme qui vérifie que le code est <strong>formellement</strong> conforme à un certain <em>guidestyle</em>
+<li><p><span class="orange"><strong><em>linter</em></strong></span> : programme qui vérifie que le code est <strong>formellement</strong> conforme à un certain <em>guidestyle</em></p>
 <ul>
 <li>signale problèmes formels, sans corriger</li>
 </ul></li>
 </ol>
 <div class="fragment">
 <ol start="2" type="1">
-<li><span class="orange"><strong><em>formatter</em></strong></span> : programme qui reformate un code pour le rendre conforme à un certain <em>guidestyle</em>
+<li><p><span class="orange"><strong><em>formatter</em></strong></span> : programme qui reformate un code pour le rendre conforme à un certain <em>guidestyle</em></p>
 <ul>
 <li>modifie directement le code</li>
 </ul></li>
@@ -630,11 +630,11 @@
 </div>
 <div class="callout-content">
 <ul>
-<li><span class="blue2">Exemples d’erreurs repérées</span> par un <em>linter</em> :
+<li><p><span class="blue2">Exemples d’erreurs repérées</span> par un <em>linter</em> :</p>
 <ul>
 <li>lignes de code trop longues ou mal indentées, parenthèses non équilibrées, noms de fonctions mal construits…</li>
 </ul></li>
-<li><span class="blue2">Exemples d’erreurs <strong>non</strong> repérées</span> par un <em>linter</em> :
+<li><p><span class="blue2">Exemples d’erreurs <strong>non</strong> repérées</span> par un <em>linter</em> :</p>
 <ul>
 <li>fonctions mal utilisées, arguments mal spécifiés, structure du code incohérente, code insuffisamment documenté…</li>
 </ul></li>
@@ -649,8 +649,8 @@
 <p><br></p>
 <p>Dans le cas de <i class="fa-brands fa-r-project" aria-hidden="true"></i> :</p>
 <ul>
-<li>le <span class="orange"><em>linter</em></span> à utiliser est le <em>package</em> <a href="https://github.com/r-lib/lintr"><code>lintr</code></a></li>
-<li>le <span class="orange"><em>formatter</em></span> à utiliser est le <em>package</em> <a href="https://github.com/r-lib/styler"><code>styler</code></a>.
+<li><p>le <span class="orange"><em>linter</em></span> à utiliser est le <em>package</em> <a href="https://github.com/r-lib/lintr"><code>lintr</code></a></p></li>
+<li><p>le <span class="orange"><em>formatter</em></span> à utiliser est le <em>package</em> <a href="https://github.com/r-lib/styler"><code>styler</code></a>.</p>
 <ul>
 <li>Existe également le <em>package</em> <a href="https://github.com/yihui/formatR"><code>formatR</code></a>.</li>
 </ul></li>
@@ -700,7 +700,7 @@
 <section id="documenter-son-code" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="three">3️⃣</span> Documenter son code</h2>
 <ul>
-<li>Grands principes :
+<li><p>Grands principes :</p>
 <ul>
 <li>Documenter le <span class="orange"><strong>pourquoi</strong></span> plutôt que le <span class="orange"><strong>comment</strong></span></li>
 <li>Privilégier l’auto-documentation via des <span class="orange"><strong>nommages pertinents</strong></span>.</li>
@@ -743,7 +743,7 @@
 </div>
 <div class="fragment">
 <ul>
-<li>Recommandation : indiquer explicitement le <em>package</em> : notation <code>package::fonction()</code>
+<li><p>Recommandation : indiquer explicitement le <em>package</em> : notation <code>package::fonction()</code></p>
 <ul>
 <li>Exemple : <code>dplyr::filter()</code></li>
 </ul></li>
@@ -896,7 +896,7 @@
 <h2>Bilan</h2>
 <div>
 <ul>
-<li class="fragment">Un code mal structuré
+<li class="fragment"><p>Un code mal structuré</p>
 <ul>
 <li class="fragment">Limite la lisibilité du projet</li>
 <li class="fragment">Est très coûteux à maintenir (dette technique)</li>
@@ -972,7 +972,7 @@
 <h2><span class="emoji" data-emoji="one">1️⃣</span> Utiliser les projets RStudio</h2>
 <div>
 <ul>
-<li class="fragment"><span class="orange"><strong>Objectif</strong></span> : favoriser la <span class="blue2"><strong>reproductibilité</strong></span>
+<li class="fragment"><p><span class="orange"><strong>Objectif</strong></span> : favoriser la <span class="blue2"><strong>reproductibilité</strong></span></p>
 <ul>
 <li class="fragment">Tous les fichiers nécessaires au projet dans un même dossier</li>
 <li class="fragment">Le dossier contenant le projet RStudio est automatiquement utilisé comme <strong><em>working directory</em></strong></li>
@@ -1038,7 +1038,7 @@
 </ul>
 <div>
 <ul>
-<li class="fragment">Idéalement, il contient :
+<li class="fragment"><p>Idéalement, il contient :</p>
 <ul>
 <li class="fragment">Une <span class="orange"><strong>présentation</strong></span> du contexte et des objectifs</li>
 <li class="fragment">Une description de son <span class="orange"><strong>fonctionnement</strong></span></li>
@@ -1048,7 +1048,7 @@
 </div>
 <div class="fragment">
 <ul>
-<li>Quelques modèles de <code>README.md</code> complets :
+<li><p>Quelques modèles de <code>README.md</code> complets :</p>
 <ul>
 <li><a href="https://github.com/InseeFrLab/utilitR/blob/master/README.md">utilitR</a></li>
 <li><a href="https://github.com/InseeFrLab/DoReMIFaSol">DoReMIFaSol</a></li>
@@ -1060,17 +1060,17 @@
 <h2><span class="emoji" data-emoji="five">5️⃣</span> Faire de son projet un <em>package</em></h2>
 <div>
 <ul>
-<li class="fragment">Un <em>package</em> est la forme maximale de <span class="orange"><strong>modularité</strong></span>
+<li class="fragment"><p>Un <em>package</em> est la forme maximale de <span class="orange"><strong>modularité</strong></span></p>
 <ul>
 <li class="fragment">Contient des <span class="blue2"><strong>fonctions</strong></span> rangées dans des <span class="blue2"><strong>modules</strong></span></li>
 <li class="fragment">Contient également de la <span class="blue2"><strong>documentation</strong></span>, des <span class="blue2"><strong>tests</strong></span>, des (méta-)données…</li>
 </ul></li>
-<li class="fragment"><span class="orange"><strong>Avantages</strong></span>
+<li class="fragment"><p><span class="orange"><strong>Avantages</strong></span></p>
 <ul>
 <li class="fragment">Idéal pour favoriser la <span class="blue2"><strong>réutilisation</strong></span> du code</li>
 <li class="fragment">Des <span class="blue2"><strong>outils</strong></span> de développement : <code>devtools</code> et <code>usethis</code></li>
 </ul></li>
-<li class="fragment"><span class="orange"><strong>Inconvénients</strong></span>
+<li class="fragment"><p><span class="orange"><strong>Inconvénients</strong></span></p>
 <ul>
 <li class="fragment">Coût de <span class="blue2"><strong>maintenance</strong></span> élevé</li>
 </ul></li>
@@ -1157,7 +1157,7 @@
 <h2>Enjeux</h2>
 <div>
 <ul>
-<li class="fragment">Le choix d’un format de données répond à un <span class="orange"><strong>arbitrage</strong></span> entre plusieurs critères :
+<li class="fragment"><p>Le choix d’un format de données répond à un <span class="orange"><strong>arbitrage</strong></span> entre plusieurs critères :</p>
 <ul>
 <li class="fragment"><span class="blue2"><strong>Finalité</strong></span> (traitement, analyse, diffusion)</li>
 <li class="fragment"><span class="blue2"><strong>Public cible</strong></span></li>
@@ -1173,14 +1173,14 @@
 </ul>
 <div>
 <ul>
-<li class="fragment">Deux formats à privilégier :
+<li class="fragment"><p>Deux formats à privilégier :</p>
 <ul>
-<li class="fragment"><span class="orange"><strong>CSV</strong></span> : pour la <span class="blue2"><strong>plupart des usages courants</strong></span>
+<li class="fragment"><p><span class="orange"><strong>CSV</strong></span> : pour la <span class="blue2"><strong>plupart des usages courants</strong></span></p>
 <ul>
 <li class="fragment"><em>Avantage</em> : <span class="blue2"><strong>non-compressé</strong></span> donc facilement <span class="blue2"><strong>lisible</strong></span></li>
 <li class="fragment"><em>Inconvénients</em> : pas de gestion des méta-données, peu adapté aux données volumineuses</li>
 </ul></li>
-<li class="fragment"><span class="orange"><strong>Parquet</strong></span> : pour le traitement de <span class="blue2"><strong>données volumineuses</strong></span>
+<li class="fragment"><p><span class="orange"><strong>Parquet</strong></span> : pour le traitement de <span class="blue2"><strong>données volumineuses</strong></span></p>
 <ul>
 <li class="fragment"><span class="blue2"><strong>Compressé</strong></span> et très <span class="blue2"><strong>performant</strong></span> en lecture/écriture</li>
 <li class="fragment">Gestion native des méta-données</li>
@@ -1311,7 +1311,7 @@
 <h2><span class="emoji" data-emoji="one">1️⃣</span> Initialisation de l’environnement</h2>
 <div>
 <ul>
-<li class="fragment"><code>renv::init()</code> dans un projet RStudio crée :
+<li class="fragment"><p><code>renv::init()</code> dans un projet RStudio crée :</p>
 <ul>
 <li class="fragment">Un dossier <code>renv</code> et le fichier <code>.Rprofile</code> : activation automatique de l’environnement</li>
 <li class="fragment">Le fichier <code>renv.lock</code> : versions des <em>packages</em> installés</li>
@@ -1330,7 +1330,7 @@
 <h2><span class="emoji" data-emoji="two">2️⃣</span> Développement du projet</h2>
 <div>
 <ul>
-<li class="fragment">Une fois l’environnement initialisé, on développe le projet de manière habituelle :
+<li class="fragment"><p>Une fois l’environnement initialisé, on développe le projet de manière habituelle :</p>
 <ul>
 <li class="fragment">Installations/suppressions/mises à jour de packages</li>
 <li class="fragment">Ecriture de scripts</li>
@@ -1463,7 +1463,7 @@
 <h2>Vers une reproductibilité optimale</h2>
 <div>
 <ul>
-<li class="fragment"><span class="orange"><strong>Limites</strong></span> des environnements virtuels :
+<li class="fragment"><p><span class="orange"><strong>Limites</strong></span> des environnements virtuels :</p>
 <ul>
 <li class="fragment">Les <span class="blue2"><strong>librairies système</strong></span> ne sont pas gérées</li>
 <li class="fragment">Lourdeur de la phase d’installation à chaque changement d’environnement</li>
@@ -1518,7 +1518,7 @@
 </ul>
 <div>
 <ul>
-<li class="fragment">Modéliser ces étapes sous forme de <span class="orange"><strong>pipeline (<em>direct acyclic graph</em>)</strong></span> a plusieurs avantages :
+<li class="fragment"><p>Modéliser ces étapes sous forme de <span class="orange"><strong>pipeline (<em>direct acyclic graph</em>)</strong></span> a plusieurs avantages :</p>
 <ul>
 <li class="fragment"><span class="blue2"><strong>Découplage</strong></span> des différentes étapes</li>
 <li class="fragment">Facilite la <span class="blue2"><strong>planification</strong></span> du traitement</li>
@@ -1534,7 +1534,7 @@
 </ul>
 <div>
 <ul>
-<li class="fragment">Deux objectifs majeurs :
+<li class="fragment"><p>Deux objectifs majeurs :</p>
 <ol type="1">
 <li class="fragment"><span class="orange"><strong>Réduire le coût d’expérimentation</strong></span> en sauvegardant les résultats intermédiaires (<strong><em>targets</em></strong>)</li>
 <li class="fragment">Garantir la <span class="orange"><strong>reproductibilité</strong></span> de la chaîne en traçant les changements de ces <strong><em>targets</em></strong></li>
@@ -1545,7 +1545,7 @@
 <section id="méthode-de-travail-avec-targets" class="slide level2 smaller" data-background-image="background.svg" data-background-size="contain">
 <h2>Méthode de travail avec <code>targets</code></h2>
 <ul>
-<li>On développe dans des scripts :
+<li><p>On développe dans des scripts :</p>
 <ul>
 <li>Fonctions dans un ou plusieurs fichiers dédiés</li>
 <li>Chaîne de production dans un fichier <code>_targets.R</code></li>
@@ -1553,7 +1553,7 @@
 </ul>
 <div class="fragment">
 <ul>
-<li>On gère l’exécution du <em>pipeline</em> directement dans la console
+<li><p>On gère l’exécution du <em>pipeline</em> directement dans la console</p>
 <ul>
 <li><code>tar_visnetwork()</code> pour inspecter la structure du <em>pipeline</em></li>
 <li><code>tar_make</code> pour exécuter la chaine de production</li>
@@ -1577,7 +1577,7 @@
 <section id="un-projet-minimaliste" class="slide level2 smaller" data-background-image="background.svg" data-background-size="contain">
 <h2><span class="emoji" data-emoji="one">1️⃣</span> Un projet minimaliste</h2>
 <ul>
-<li>Structure de projet <em>opinionated</em> :
+<li><p>Structure de projet <em>opinionated</em> :</p>
 <ul>
 <li><del>Long script <code>script.R</code></del> <code>_targets.R</code></li>
 <li>Chaîne de production: suite d’appels à des fonctions définies dans <code>R/functions.R</code></li>
@@ -1593,7 +1593,7 @@
 <div class="fragment">
 <p><br></p>
 <ul>
-<li>Nouveau fichier: <code>_targets.R</code>
+<li><p>Nouveau fichier: <code>_targets.R</code></p>
 <ul>
 <li>Contrôle le comportement de notre chaine de traitement</li>
 <li>Enchaînement d’étapes de transformation de données selon une syntaxe particulière</li>
@@ -1605,7 +1605,7 @@
 <h2><span class="emoji" data-emoji="two">2️⃣</span> Le fichier <code>_targets.R</code></h2>
 <div>
 <ul>
-<li class="fragment">Le fichier <code>_targets.R</code> doit satisfaire plusieurs conditions :
+<li class="fragment"><p>Le fichier <code>_targets.R</code> doit satisfaire plusieurs conditions :</p>
 <ol type="1">
 <li class="fragment">Charger le <em>package</em> <code>targets</code></li>
 <li class="fragment">Charger dans l’environnement les fonctions nécessaires</li>
@@ -1846,7 +1846,7 @@
 <h2><code>R Markdown</code></h2>
 <div>
 <ul>
-<li class="fragment"><code>R Markdown</code> est un <em>package</em> <code>R</code> qui permet de lier
+<li class="fragment"><p><code>R Markdown</code> est un <em>package</em> <code>R</code> qui permet de lier</p>
 <ul>
 <li class="fragment">Du <span class="orange"><strong>texte</strong></span> au format <code>Markdown</code></li>
 <li class="fragment">Du <span class="orange"><strong>code</strong></span> <code>R</code> qui peut être exécuté et dont les sorties peuvent être intégrées au texte</li>
@@ -1859,7 +1859,7 @@
 </ul>
 <div>
 <ul>
-<li class="fragment">Un document est <span class="orange"><strong>compilé</strong></span> en deux étapes
+<li class="fragment"><p>Un document est <span class="orange"><strong>compilé</strong></span> en deux étapes</p>
 <ul>
 <li class="fragment"><span class="green2"><strong><em>knit</em></strong></span> : le package <code>knitr</code> transforme le texte et les sorties <code>R</code> en un document <code>Markdown</code> standard</li>
 <li class="fragment"><span class="green2"><strong><em>convert</em></strong></span> : le logiciel <code>pandoc</code> transforme le document <code>.md</code> en un format de sortie standard (<code>html</code>, <code>pdf</code>, etc.)</li>
