@@ -26,7 +26,7 @@
 4. Remplir le fichier `DESCRIPTION`. En particulier, spécifier les dépendances nécessaires (`Imports`) et facultatives (`Suggests`)
 5. Construire la documentation du *package* avec la fonction `devtools::document()`. Où est-elle stockée et sous quel format ?
 6. Vérifier que la documentation de notre fonction est accessible avec `?ma_fonction`
-7. (Facultatif) Initialiser un nouveau projet sur `GitHub` est y mettre le code du *package*. Vérifier que le *package* peut être installé en local avec la fonction `devtools::install_github()`.
+7. (Facultatif) Initialiser un nouveau projet sur `GitLab` est y mettre le code du *package*. Vérifier que le *package* peut être installé en local avec la fonction `devtools::install_git()`.
 :::
 
 :::
